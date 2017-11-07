@@ -12,6 +12,8 @@
 		8625533C1FA225DF006CC3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8625533A1FA225DF006CC3D5 /* Main.storyboard */; };
 		8625533E1FA225DF006CC3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8625533D1FA225DF006CC3D5 /* Assets.xcassets */; };
 		862553411FA225DF006CC3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8625533F1FA225DF006CC3D5 /* LaunchScreen.storyboard */; };
+		862553491FA22986006CC3D5 /* wonderwoman-1280-9amembargo-1488818748850_1280w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 862553481FA22986006CC3D5 /* wonderwoman-1280-9amembargo-1488818748850_1280w.jpg */; };
+		866B62E91FA8B8690069BCE1 /* ButtonActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B62E81FA8B8690069BCE1 /* ButtonActionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8625533D1FA225DF006CC3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862553401FA225DF006CC3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862553421FA225DF006CC3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862553481FA22986006CC3D5 /* wonderwoman-1280-9amembargo-1488818748850_1280w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wonderwoman-1280-9amembargo-1488818748850_1280w.jpg"; sourceTree = "<group>"; };
+		866B62E81FA8B8690069BCE1 /* ButtonActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonActionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				862553361FA225DF006CC3D5 /* AppDelegate.swift */,
 				862553381FA225DF006CC3D5 /* ViewController.swift */,
 				8625533A1FA225DF006CC3D5 /* Main.storyboard */,
+				862553481FA22986006CC3D5 /* wonderwoman-1280-9amembargo-1488818748850_1280w.jpg */,
 				8625533D1FA225DF006CC3D5 /* Assets.xcassets */,
 				8625533F1FA225DF006CC3D5 /* LaunchScreen.storyboard */,
 				862553421FA225DF006CC3D5 /* Info.plist */,
+				866B62E81FA8B8690069BCE1 /* ButtonActionViewController.swift */,
 			);
 			path = tableData;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862553491FA22986006CC3D5 /* wonderwoman-1280-9amembargo-1488818748850_1280w.jpg in Resources */,
 				862553411FA225DF006CC3D5 /* LaunchScreen.storyboard in Resources */,
 				8625533E1FA225DF006CC3D5 /* Assets.xcassets in Resources */,
 				8625533C1FA225DF006CC3D5 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				862553391FA225DF006CC3D5 /* ViewController.swift in Sources */,
+				866B62E91FA8B8690069BCE1 /* ButtonActionViewController.swift in Sources */,
 				862553371FA225DF006CC3D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +309,7 @@
 				862553471FA225E0006CC3D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
